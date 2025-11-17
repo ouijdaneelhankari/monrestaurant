@@ -1,0 +1,19 @@
+.gallery-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  background-color: #111; /* fond sombre */
+}
+
+.gallery-item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
