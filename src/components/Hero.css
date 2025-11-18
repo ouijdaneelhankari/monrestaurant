@@ -77,3 +77,21 @@
   transform: translateY(-2px);
   transition: all 0.3s ease;
 }
+.menu-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #535151ee, #8b7f7f);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}

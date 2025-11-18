@@ -22,7 +22,6 @@ const Gallery = () => {
     }
   };
 
-  // Vérifie si les flèches doivent apparaître
   const checkScroll = () => {
     if (scrollRef.current) {
       const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
@@ -43,7 +42,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="gallery-wrapper">
+    <div id="gallery" className="gallery-wrapper">
       {canScrollLeft && (
         <button className="scroll-btn left" onClick={() => scroll('left')}>&lt;</button>
       )}

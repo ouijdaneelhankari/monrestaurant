@@ -48,3 +48,19 @@
 .scroll-btn.right {
   right: 10px;
 }
+
+
+
+@media (min-width: 768px) {
+  .gallery-item {
+    flex: 0 0 45%; /* tablette */
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery-item {
+    flex: 0 0 30%; /* desktop */
+    height: 300px;
+  }
+}
